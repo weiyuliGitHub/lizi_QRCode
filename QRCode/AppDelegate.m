@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor=[UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
+    //第二次上传
     LoginViewViewController *log=[[LoginViewViewController alloc]init];
     UINavigationController * navController=[[UINavigationController alloc]initWithRootViewController:log];
     
